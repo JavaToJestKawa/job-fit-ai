@@ -393,8 +393,9 @@ Future improvements should include:
 
 ## Why I Built This Project
 
-This project was created to practice backend development with FastAPI and to build a more realistic portfolio application.
+This project was created to solve a real problem I faced while applying for junior IT positions: quickly checking how well my CV matches different job offers and tracking the status of my applications.
 
+JobFit AI automates CV-job offer comparison, detects matched and missing skills, calculates a fit score, and helps manage the recruitment process.
 It combines:
 
 * REST API design
