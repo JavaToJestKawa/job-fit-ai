@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobFit</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Automated CV analysis</p>
+        <h1>JobFit</h1>
+        <p class="subtitle">
+          Paste your CV and a job offer. The app calculates fit score, missing skills,
+          matched keywords and a short recruiter message.
+        </p>
+      </section>
+
+      <section class="grid">
+        <form id="analysis-form" class="card form-card">
+          <label>
+            Company
+            <input id="company" required minlength="2" placeholder="e.g. Allegro" />
+          </label>
+
+          <label>
+            Job title
+            <input id="jobTitle" required minlength="2" placeholder="e.g. Junior Backend Developer" />
+          </label>
+
+          <label>
+            CV / profile text
+            <textarea id="cvText" required minlength="40" placeholder="Paste your CV, LinkedIn summary or GitHub profile description..."></textarea>
+          </label>
+
+          <label>
+            Job description
+            <textarea id="jobDescription" required minlength="40" placeholder="Paste job offer requirements..."></textarea>
+          </label>
+
+          <button type="submit">Analyze match</button>
+          <p id="form-message" class="message"></p>
+        </form>
+
+        <section id="result" class="card result-card empty-state">
+          <h2>Analysis result</h2>
+          <p>Your result will appear here after analysis.</p>
+        </section>
+      </section>
+
+      <section class="card history-card">
+        <div class="section-header">
+          <h2>Saved applications</h2>
+          <button id="refreshButton" class="secondary-button">Refresh</button>
+        </div>
+        <div id="history" class="history-list"></div>
+      </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
