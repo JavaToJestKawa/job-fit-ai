@@ -5,11 +5,8 @@ JobFit AI is a FastAPI-based web application that helps users analyze how well t
 The application compares a CV with a job description, calculates a fit score, detects matched and missing skills, generates recommendations, prepares a short recruiter message, and allows users to monitor and update the status of their job applications.
 
 ## Demo
-
-> Add your demo GIF here after recording the app.
-
 ```md
-![JobFit AI demo](assets/demo.gif)
+![JobFit AI demo](assets/demo.mp4)
 ```
 
 Suggested flow for the GIF:
