@@ -6,6 +6,8 @@ The application compares a CV with a job description, calculates a fit score, de
 
 ## Demo
 
+The GIF preview may take a few seconds to load. Please wait.
+
 [![JobFit AI demo](assets/demo.gif)](https://youtu.be/MKf9kwbWDHw)
 
 [▶️ Zobacz pełne demo na YouTube](https://youtu.be/MKf9kwbWDHw)
