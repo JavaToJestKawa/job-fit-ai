@@ -10,7 +10,7 @@ The application compares a CV with a job description, calculates a fit score, de
 
 [![JobFit AI demo](assets/demo.gif)](https://youtu.be/MKf9kwbWDHw)
 
-[▶️ Zobacz pełne demo na YouTube](https://youtu.be/MKf9kwbWDHw)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch%20demo-red?logo=youtube)](https://youtu.be/MKf9kwbWDHw)
 
 Suggested flow for the GIF:
 
