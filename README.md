@@ -12,15 +12,6 @@ The application compares a CV with a job description, calculates a fit score, de
 
 [![YouTube](https://img.shields.io/badge/YouTube-Watch%20demo-red?logo=youtube)](https://youtu.be/MKf9kwbWDHw)
 
-Suggested flow for the GIF:
-
-1. Open the application.
-2. Paste a sample CV.
-3. Paste a job offer.
-4. Run the analysis.
-5. Show the fit score, matched skills, missing skills and generated recruiter message.
-6. Show the saved application in history and change its status.
-
 ## Features
 
 * CV and job offer analysis
